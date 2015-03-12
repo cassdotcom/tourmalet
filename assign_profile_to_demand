@@ -1,74 +1,60 @@
-#--------------------------------------------
-# Declare Global Variables and Functions here
-#--------------------------------------------
+# Node 60202700000151 has been altered
+$path = 'S:\TEST AREA\ac00418\average_system_pressures\exchange\N1_all_nodes\602027 Alyth LP_all_nodes.csv'
+$path_out = 'S:\TEST AREA\ac00418\average_system_pressures\exchange\N1_all_nodes\temp.csv'
+$flow_category = 'D1'
+$profile_name = 'D1 PROFILE'
+
+$node_data =@()
+
+$NodeFlowByCategory = "NodeFlowByCategory($($flow_category))"
+$NodeFlowProfileNameByCategory = "NodeFlowProfileNameByCategory($($flow_category))"
+
+$node_data = Import-CSV $path
+$node_data | Where-Object { $_.$NodeFlowByCategory -ne ""} | Foreach-object { $_.$NodeFlowProfileNameByCategory = "D1 PROFILE"}
+$node_data | Export-CSV $path_out -NoTypeInformation
 
 
 
-function assign_profile_to_demand
-{
-	[CmdletBinding()]
-	Param(
-	# Refers to the actual flow category, eg: 'D1'
-	[Parameter(Position=0, Mandatory=$true)]
-	[System.String]
-	$flow_category,
-	# Refers to the name of the flow profile, eg: 'D1 PROFILE'
-	[Parameter(Position=1, Mandatory=$false)]
-	[System.String]
-	$profile_name,
-	# Array containing all node demand data
-	[Parameter(Position=2, Mandatory=$true)]
-	[System.Array]
-	$all_nodes
-	)
+# # # # # function assign_profile_to_demand
+# # # # # {
+	# # # # # [CmdletBinding()]
+	# # # # # Param(
+	# # # # # # Refers to the actual flow category, eg: 'D1'
+	# # # # # [Parameter(Position=0, Mandatory=$true)]
+	# # # # # [System.String]
+	# # # # # $flow_category,
+	# # # # # # Refers to the name of the flow profile, eg: 'D1 PROFILE'
+	# # # # # [Parameter(Position=1, Mandatory=$false)]
+	# # # # # [System.String]
+	# # # # # $profile_name,
+	# # # # # # Array containing all node demand data
+	# # # # # [Parameter(Position=2, Mandatory=$true)]
+	# # # # # [System.Array]
+	# # # # # $all_nodes
+	# # # # # )
 	
-	$profile_count = $all_nodes.length	
+	# # # # # $profile_count = $all_nodes.length	
 
-	# $path = 'G:\tourmalet\ASP\files\643012_Broxburn_all_nodes.csv'
-#
-#	$model_node_data = Get-Content -Path $path | ForEach-Object {$_ -replace "\(", "_"} | ForEach-Object {$_ -replace "\)", "_"}
-#	$model_node_data | Set-content $path
-#
-#	$all_nodes = Import-CSV $path
-#	$D1_profiles = $all_nodes | where-object {$_.NodeFlowByCategory_D1_ -lt 0}
-
-# 	Write-host "There are $($D1_profiles.Count) D1 profiles"
-
-	$NodeFlowByCategory = "NodeFlowByCategory_$($flow_category)_"
-	$NodeFlowProfileNameByCategory = "NodeFlowProfileNameByCategory_$($flow_category)_"
+	# # # # # $NodeFlowByCategory = "NodeFlowByCategory($($flow_category))"
+	# # # # # $NodeFlowProfileNameByCategory = "NodeFlowProfileNameByCategory($($flow_category))"
 	
-	$fixed_profiles = $all_nodes | where-object {$_.$NodeFlowByCategory -lt 0} | ForEach-Object {$_.NodeFlowProfileNameByCategory_D1_ -replace " ", "D1 PROFILE"}
+	# # # # # $fixed_profiles = $all_nodes | where-object {$_.$NodeFlowByCategory -lt 0} | ForEach-Object {$_.$NodeFlowProfileNameByCategory -replace " ", "D1 PROFILE"}
 
-$fixed_profiles | Set-content $path 
-
-	}
-
-
+	# # # # # $fixed_profiles | Set-content $path 
+	
+# # # # # }
 
 
+# # # # # # # # # $path = 'G:\tourmalet\ASP\files\643012_Broxburn_all_nodes.csv'
 
+# # # # # # # # # $model_node_data = Get-Content -Path $path | ForEach-Object {$_ -replace "\(", "_"} | ForEach-Object {$_ -replace "\)", "_"}
+# # # # # # # # # $model_node_data | Set-content $path
 
+# # # # # # # # # $all_nodes = Import-CSV $path
+# # # # # # # # # $D1_profiles = $all_nodes | where-object {$_.NodeFlowByCategory_D1_ -lt 0}
 
+# # # # # # # # # Write-host "There are $($D1_profiles.Count) D1 profiles"
 
+# # # # # # # # # $fixed_profiles = $all_nodes | where-object {$_.NodeFlowByCategory_D1_ -lt 0} | ForEach-Object {$_.NodeFlowProfileNameByCategory_D1_ -replace " ", "D1 PROFILE"}
 
-
-
-
-
-#Sample function that provides the location of the script
-function Get-ScriptDirectory
-{ 
-	if($hostinvocation -ne $null)
-	{
-		Split-Path $hostinvocation.MyCommand.path
-	}
-	else
-	{
-		Split-Path $script:MyInvocation.MyCommand.Path
-	}
-}
-
-#Sample variable that provides the location of the script
-[string]$ScriptDirectory = Get-ScriptDirectory
-
-
+# # # # # # # # # $fixed_profiles | Set-content $path 
