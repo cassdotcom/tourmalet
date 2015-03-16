@@ -1,0 +1,98 @@
+SynerGEE Gas 4.7.1: ASP
+
+,Name,Average Pressure,Material,Service State,Symbol Name,Result Subsystem ID,Length (m)
+1,PI000001,28.37,PE,Enabled,Default Pipe,1,23.8
+2,PI000002,36.87,PE,Enabled,Default Pipe,1,110.6
+3,PI000003,30.13,PE,Enabled,Default Pipe,1,2.7
+4,PI000004,39.85,PE,Enabled,Default Pipe,1,167.0
+5,PI000005,41.96,PE,Enabled,Default Pipe,1,1.1
+6,PI000006,32.44,PE,Enabled,Default Pipe,1,66.0
+7,PI000007,30.82,PE,Enabled,Default Pipe,1,54.9
+8,PI000008,24.59,PE,Enabled,Default Pipe,1,2.1
+9,PI000009,32.55,PE,Enabled,Default Pipe,1,46.0
+10,PI000010,28.01,PE,Enabled,Default Pipe,1,1.2
+11,PI000011,25.07,PE,Enabled,Default Pipe,1,30.3
+12,PI000012,25.09,PE,Enabled,Default Pipe,1,1.4
+13,PI000013,24.89,PE,Enabled,Default Pipe,1,1.4
+14,PI000014,23.85,PE,Enabled,Default Pipe,1,83.4
+15,PI000015,24.52,PE,Enabled,Default Pipe,1,1.5
+16,PI000016,22.12,PE,Enabled,Default Pipe,1,102.8
+17,PI000017,30.13,PE,Enabled,Default Pipe,1,4.2
+18,PI000018,21.78,PE,Enabled,Default Pipe,1,23.9
+19,0467093303,23.52,PE,Enabled,Default Pipe,1,44.7
+20,0467093382,27.09,PE,Enabled,Default Pipe,1,52.7
+21,0467093240,33.54,PE,Enabled,Default Pipe,1,3.1
+22,0467093241,29.84,PE,Enabled,Default Pipe,1,27.6
+23,0467093446,33.40,PE,Enabled,Default Pipe,1,1.5
+24,0467093517,36.57,PE,Enabled,Default Pipe,1,75.5
+25,0650468594,27.93,PE,Enabled,Default Pipe,1,32.7
+26,0467093226,29.08,PE,Enabled,Default Pipe,1,52.6
+27,0467093230,28.64,PE,Enabled,Default Pipe,1,13.4
+28,0467093238,41.40,PE,Enabled,Default Pipe,1,13.0
+29,0467093330,29.20,PE,Enabled,Default Pipe,1,33.2
+30,0467093347,39.61,PE,Enabled,Default Pipe,1,1.2
+31,0467093239,40.49,PE,Enabled,Default Pipe,1,11.7
+32,0467093196,28.82,PE,Enabled,Default Pipe,1,29.4
+33,0467093609,39.77,PE,Enabled,Default Pipe,1,66.2
+34,0467093514,37.21,PE,Enabled,Default Pipe,1,57.3
+35,0467093593,38.03,PE,Enabled,Default Pipe,1,49.2
+36,0467093207,28.80,PE,Enabled,Default Pipe,1,171.1
+37,0467093339,23.02,PE,Enabled,Default Pipe,1,93.3
+38,0467093389,24.41,PE,Enabled,Default Pipe,1,46.9
+39,0467093242,29.32,PE,Enabled,Default Pipe,1,38.1
+40,0467093310,23.12,PE,Enabled,Default Pipe,1,77.7
+41,0467093237,42.50,PE,Enabled,Default Pipe,1,12.5
+42,0467093290,28.47,PE,Enabled,Default Pipe,1,41.0
+43,0467093336,24.56,PE,Enabled,Default Pipe,1,22.9
+44,0467093399,24.49,PE,Enabled,Default Pipe,1,32.6
+45,0650210534,28.44,PE,Enabled,Default Pipe,1,17.6
+46,0467093591,31.42,PE,Enabled,Default Pipe,1,76.7
+47,0467093502,24.99,PE,Enabled,Default Pipe,1,54.9
+48,0467093335,24.44,PE,Enabled,Default Pipe,1,31.1
+49,0467093474,30.19,PE,Enabled,Default Pipe,1,66.0
+50,0467093590,30.11,PE,Enabled,Default Pipe,1,122.2
+51,0467093592,32.02,PE,Enabled,Default Pipe,1,2.8
+52,0467239158,29.45,PE,Enabled,Default Pipe,1,103.0
+53,0467093510,35.23,PE,Enabled,Default Pipe,1,50.5
+54,0467093293,29.14,PE,Enabled,Default Pipe,1,33.9
+55,0467093426,25.00,PE,Enabled,Default Pipe,1,38.8
+56,0650210491,28.42,PE,Enabled,Default Pipe,1,65.5
+57,0467093267,24.72,PE,Enabled,Default Pipe,1,1.8
+58,0467093425,25.18,PE,Enabled,Default Pipe,1,7.6
+59,0467093398,24.67,PE,Enabled,Default Pipe,1,29.3
+60,0467093403,26.63,PE,Enabled,Default Pipe,1,116.7
+61,0467093562,31.06,PE,Enabled,Default Pipe,1,70.4
+62,0467093286,25.24,PE,Enabled,Default Pipe,1,1.9
+63,0650210563,28.44,PE,Enabled,Default Pipe,1,15.9
+64,0467238912,34.16,PE,Enabled,Default Pipe,1,99.8
+65,0467093575,33.02,PE,Enabled,Default Pipe,1,42.0
+66,0622647000,30.13,PE,Enabled,Default Pipe,1,3.4
+67,0467093287,21.78,PE,Enabled,Default Pipe,1,1.5
+68,PI000019,22.85,PE,Enabled,Default Pipe,1,69.4
+69,PI000020,22.35,PE,Enabled,Default Pipe,1,42.5
+70,PI000021,21.92,PE,Enabled,Default Pipe,1,136.4
+71,PI000022,21.82,PE,Enabled,Default Pipe,1,90.4
+72,PI000023,30.55,PE,Enabled,Default Pipe,1,123.3
+73,PI000024,29.35,PE,Enabled,Default Pipe,1,103.4
+74,PI000025,36.46,PE,Enabled,Default Pipe,1,84.0
+75,PI000026,38.21,PE,Enabled,Default Pipe,1,31.8
+76,PI000027,36.75,PE,Enabled,Default Pipe,1,53.2
+77,PI000028,35.69,PE,Enabled,Default Pipe,1,35.5
+78,PI000029,29.07,PE,Enabled,Default Pipe,1,99.4
+79,PI000030,28.50,PE,Enabled,Default Pipe,1,66.9
+80,PI000031,24.91,PE,Enabled,Default Pipe,1,38.5
+81,PI000032,24.83,PE,Enabled,Default Pipe,1,31.9
+82,PI000033,22.57,PE,Enabled,Default Pipe,1,52.9
+83,PI000034,32.49,PE,Enabled,Default Pipe,1,59.7
+84,PI000035,23.16,PE,Enabled,Default Pipe,1,117.6
+85,PI000036,23.19,PE,Enabled,Default Pipe,1,29.5
+86,PI000037,29.17,PE,Enabled,Default Pipe,1,26.3
+87,PI000038,29.50,PE,Enabled,Default Pipe,1,36.5
+88,PI000039,25.58,PE,Enabled,Default Pipe,1,50.3
+89,PI000040,28.76,PE,Enabled,Default Pipe,1,145.0
+
+Model State: Solved
+
+Generated on 12/03/2015 17:34:23
+
+SynerGEE Gas 4.7.1: ASP

@@ -1,0 +1,48 @@
+SynerGEE Gas 4.7.1: ASP
+
+,Name,Average Pressure,Material,Service State,Symbol Name,Result Subsystem ID,Length (m)
+1,PI000000,29.96,PE,Enabled,Default Pipe,1,86.2
+2,PI000001,31.53,PE,Enabled,Default Pipe,1,5.5
+3,PI000002,32.04,PE,Enabled,Default Pipe,1,52.0
+4,PI000003,33.40,PE,Enabled,Default Pipe,1,7.6
+5,PI000004,33.22,PE,Enabled,Default Pipe,1,10.1
+6,PI000005,35.65,PE,Enabled,Default Pipe,1,40.9
+7,PI000006,31.25,PE,Enabled,Default Pipe,1,45.4
+8,PI000007,30.53,PE,Enabled,Default Pipe,1,76.5
+9,PI000008,44.45,PE,Enabled,Default Pipe,1,59.3
+10,PI000009,47.24,PE,Enabled,Default Pipe,1,39.0
+11,PI000010,44.42,PE,Enabled,Default Pipe,1,28.8
+12,PI000011,44.42,PE,Enabled,Default Pipe,1,14.3
+13,PI000012,41.74,PE,Enabled,Default Pipe,1,46.1
+14,PI000013,38.98,PE,Enabled,Default Pipe,1,319.0
+15,PI000014,32.58,PE,Enabled,Default Pipe,1,31.1
+16,PI000015,32.08,PE,Enabled,Default Pipe,1,130.0
+17,PI000016,29.15,PE,Enabled,Default Pipe,1,51.5
+18,PI000017,31.07,PE,Enabled,Default Pipe,1,29.1
+19,PI000018,38.41,PE,Enabled,Default Pipe,1,11.1
+20,PI000019,37.83,PE,Enabled,Default Pipe,1,12.1
+21,PI000020,49.91,PE,Enabled,Default Pipe,2,49.7
+22,PI000021,49.93,PE,Enabled,Default Pipe,3,60.5
+23,PI000022,49.97,PE,Enabled,Default Pipe,4,47.6
+24,PI000023,49.36,PE,Enabled,Default Pipe,5,156.9
+25,PI000024,29.98,PE,Enabled,Default Pipe,1,26.5
+26,PI000025,29.86,PE,Enabled,Default Pipe,1,2.4
+27,PI000026,29.85,PE,Enabled,Default Pipe,1,29.6
+28,PI000027,25.73,PE,Enabled,Default Pipe,1,149.4
+29,PI000028,31.85,PE,Enabled,Default Pipe,1,56.6
+30,PI000029,32.93,PE,Enabled,Default Pipe,1,44.5
+31,PI000030,28.04,PE,Enabled,Default Pipe,1,152.6
+32,PI000031,26.91,PE,Enabled,Default Pipe,1,5.7
+33,PI000032,26.87,PE,Enabled,Default Pipe,1,10.2
+34,PI000033,26.82,PE,Enabled,Default Pipe,1,5.9
+35,PI000034,49.41,PE,Enabled,Default Pipe,6,67.4
+36,PI000035,48.09,PE,Enabled,Default Pipe,6,164.8
+37,PI000036,49.18,PE,Enabled,Default Pipe,6,20.3
+38,PI000037,49.71,PE,Enabled,Default Pipe,6,25.2
+39,PI000038,48.94,PE,Enabled,Default Pipe,6,19.3
+
+Model State: Solved
+
+Generated on 12/03/2015 17:20:32
+
+SynerGEE Gas 4.7.1: ASP

@@ -1,0 +1,82 @@
+SynerGEE Gas 4.7.1: ASP
+
+,Name,Average Pressure,Material,Service State,Symbol Name,Result Subsystem ID,Length (m)
+1,PI000001,49.98,PE,Enabled,Default Pipe,3,2.2
+2,PI000002,65.45,PE,Enabled,Default Pipe,1,10.1
+3,PI000003,65.57,PE,Enabled,Default Pipe,1,10.7
+4,PI000004,24.58,PE,Enabled,Default Pipe,4,1.3
+5,PI000005,26.54,DI,Enabled,Default Pipe,4,119.8
+6,PI000006,26.55,DI,Enabled,Default Pipe,4,303.9
+7,PI000007,26.55,DI,Enabled,Default Pipe,4,1.8
+8,PI000008,49.62,PE,Enabled,Default Pipe,2,40.4
+9,PI000009,49.50,PE,Enabled,Default Pipe,2,51.6
+10,PI000010,26.54,DI,Enabled,Default Pipe,4,100.4
+11,PI000011,24.10,PE,Enabled,Default Pipe,4,91.7
+12,0466668521,67.72,PE,Enabled,Default Pipe,1,32.8
+13,0466669359,66.00,PE,Enabled,Default Pipe,1,113.3
+14,0466669345,62.78,PE,Enabled,Default Pipe,1,1.1
+15,0466669357,67.18,PE,Enabled,Default Pipe,1,73.4
+16,0466669329,66.87,PE,Enabled,Default Pipe,1,1.8
+17,0467234736,65.86,PE,Enabled,Default Pipe,1,39.5
+18,0466669338,62.72,PE,Enabled,Default Pipe,1,0.4
+19,0466669328,67.20,PE,Enabled,Default Pipe,1,49.5
+20,0466669333,64.01,PE,Enabled,Default Pipe,1,22.5
+21,0466669389,49.85,PE,Enabled,Default Pipe,2,50.7
+22,0466669391,49.70,PE,Enabled,Default Pipe,2,71.9
+23,0607494493,49.96,PE,Enabled,Default Pipe,3,2.3
+24,0466708885,47.88,PE,Enabled,Default Pipe,3,257.3
+25,0466708887,43.50,PE,Enabled,Default Pipe,3,111.0
+26,0466708886,43.47,PE,Enabled,Default Pipe,3,28.5
+27,0466708879,42.64,PE,Enabled,Default Pipe,3,39.1
+28,0466669353,65.51,PE,Enabled,Default Pipe,1,67.4
+29,0467225079,26.54,DI,Enabled,Default Pipe,4,201.4
+30,0466668143,24.82,PE,Enabled,Default Pipe,4,95.2
+31,0620973921,26.54,PE,Enabled,Default Pipe,4,112.6
+32,0620973922,26.29,PE,Enabled,Default Pipe,4,75.3
+33,0620973923,24.42,PE,Enabled,Default Pipe,4,83.9
+34,0466668142,24.74,PE,Enabled,Default Pipe,4,81.5
+35,0620521642,25.93,PE,Enabled,Default Pipe,4,4.9
+36,0466668139,25.40,PE,Enabled,Default Pipe,4,89.8
+37,0467225069,26.54,DI,Enabled,Default Pipe,4,267.0
+38,0650018218,24.50,PE,Enabled,Default Pipe,4,138.5
+39,0467225081,26.54,DI,Enabled,Default Pipe,4,301.4
+40,0622537634,49.53,PE,Enabled,Default Pipe,2,21.5
+41,0467225083,26.25,PE,Enabled,Default Pipe,4,39.6
+42,0650009086,21.65,PE,Enabled,Default Pipe,4,6.0
+43,0466708548,25.58,PE,Enabled,Default Pipe,4,33.2
+44,0605819347,26.14,PE,Enabled,Default Pipe,4,89.5
+45,0467225075,21.42,PE,Enabled,Default Pipe,4,8.5
+46,0605996595,26.55,DI,Enabled,Default Pipe,4,68.1
+47,0605996599,26.57,PE,Enabled,Default Pipe,4,13.8
+48,0650374654,26.90,PE,Enabled,Default Pipe,4,5.7
+49,0605996597,26.56,PE,Enabled,Default Pipe,4,8.1
+50,0467225065,26.92,DI,Enabled,Default Pipe,4,4.4
+51,0620486074,26.97,PE,Enabled,Default Pipe,4,4.8
+52,0467225736,26.94,ST,Enabled,Default Pipe,4,2.8
+53,PI000012,26.91,PE,Enabled,Default Pipe,4,8.4
+54,PI000013,26.63,PE,Enabled,Default Pipe,4,74.2
+55,PI000014,26.93,DI,Enabled,Default Pipe,4,623.2
+56,PI000015,26.94,ST,Enabled,Default Pipe,4,3.2
+57,PI000016,65.36,PE,Enabled,Default Pipe,1,53.6
+58,PI000017,69.06,PE,Enabled,Default Pipe,1,30.1
+59,PI000018,62.75,PE,Enabled,Default Pipe,1,48.0
+60,PI000019,41.68,PE,Enabled,Default Pipe,3,65.7
+61,PI000020,43.76,PE,Enabled,Default Pipe,3,63.2
+62,PI000021,44.91,PE,Enabled,Default Pipe,3,109.3
+63,PI000022,26.80,PE,Enabled,Default Pipe,4,88.2
+64,PI000023,65.65,PE,Enabled,Default Pipe,1,37.1
+65,PI000024,65.99,PE,Enabled,Default Pipe,1,34.7
+66,PI000025,66.31,PE,Enabled,Default Pipe,1,49.8
+67,PI000026,65.42,PE,Enabled,Default Pipe,1,42.9
+68,PI000027,60.55,PE,Enabled,Default Pipe,1,50.5
+69,PI000028,61.79,PE,Enabled,Default Pipe,1,72.8
+70,PI000029,63.16,PE,Enabled,Default Pipe,1,33.0
+71,PI000030,68.25,PE,Enabled,Default Pipe,1,55.9
+72,PI000031,67.69,PE,Enabled,Default Pipe,1,37.1
+73,PI000032,26.55,DI,Enabled,Default Pipe,4,310.6
+
+Model State: Solved
+
+Generated on 12/03/2015 17:18:52
+
+SynerGEE Gas 4.7.1: ASP
