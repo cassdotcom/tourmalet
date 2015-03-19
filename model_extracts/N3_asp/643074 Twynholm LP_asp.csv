@@ -1,0 +1,46 @@
+SynerGEE Gas 4.7.1: ASP
+
+,Name,Average Pressure,Material,Service State,Symbol Name,Result Subsystem ID,Length (m)
+1,PI000001,63.91,PE,Enabled,Default Pipe,1,0.9
+2,PI000002,61.50,PE,Enabled,Default Pipe,1,5.5
+3,PI000003,66.05,PE,Enabled,Default Pipe,1,63.0
+4,PI000004,69.66,PE,Enabled,Default Pipe,1,18.7
+5,PI000005,63.91,PE,Enabled,Default Pipe,1,1.5
+6,PI000006,63.67,PE,Enabled,Default Pipe,1,116.3
+7,PI000007,62.25,PE,Enabled,Default Pipe,1,56.9
+8,PI000008,64.03,PE,Enabled,Default Pipe,1,0.9
+9,PI000009,62.66,PE,Enabled,Default Pipe,1,2.7
+10,PI000010,61.42,PE,Enabled,Default Pipe,1,39.3
+11,PI000011,62.11,PE,Enabled,Default Pipe,1,145.2
+12,PI000012,66.13,PE,Enabled,Default Pipe,1,120.4
+13,PI000013,68.80,PE,Enabled,Default Pipe,1,85.9
+14,PI000014,67.44,PE,Enabled,Default Pipe,1,88.4
+15,PI000015,63.05,PE,Enabled,Default Pipe,1,87.1
+16,PI000016,62.53,PE,Enabled,Default Pipe,1,51.0
+17,0466638612,61.98,PE,Enabled,Default Pipe,1,83.7
+18,0609596960,61.50,PE,Enabled,Default Pipe,1,24.2
+19,0466638577,69.91,PE,Enabled,Default Pipe,1,11.2
+20,0466638579,66.02,PE,Enabled,Default Pipe,1,110.1
+21,0466638588,63.92,PE,Enabled,Default Pipe,1,0.9
+22,0466638584,63.39,PE,Enabled,Default Pipe,1,33.9
+23,0466638594,63.29,PE,Enabled,Default Pipe,1,100.8
+24,0466638613,62.08,PE,Enabled,Default Pipe,1,48.1
+25,0466638538,62.00,PE,Enabled,Default Pipe,1,49.7
+26,0466638536,62.10,PE,Enabled,Default Pipe,1,2.6
+27,0466638617,61.76,PE,Enabled,Default Pipe,1,69.9
+28,0466638614,62.13,PE,Enabled,Default Pipe,1,87.2
+29,0609596794,62.12,PE,Enabled,Default Pipe,1,23.7
+30,0466638605,63.29,PE,Enabled,Default Pipe,1,105.2
+31,0466638535,62.66,PE,Enabled,Default Pipe,1,40.5
+32,0609596797,66.00,PE,Enabled,Default Pipe,1,21.1
+33,0466638581,64.59,PE,Enabled,Default Pipe,1,48.6
+34,0466638547,66.57,PE,Enabled,Default Pipe,1,116.3
+35,0466638582,63.97,PE,Enabled,Default Pipe,1,24.9
+36,0466638718,62.04,PE,Enabled,Default Pipe,1,50.5
+37,0466638620,61.55,PE,Enabled,Default Pipe,1,39.8
+
+Model State: Solved
+
+Generated on 11/03/2015 16:57:22
+
+SynerGEE Gas 4.7.1: ASP

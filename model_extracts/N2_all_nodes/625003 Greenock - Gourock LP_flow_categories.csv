@@ -1,0 +1,26 @@
+"NAME","TYPE","FlowCategoryTotalVolumetricFlow","FlowCategoryTotalThermalFlow","FlowCategoryMultiplier","FlowCategoryType","CategoryActive"
+"Base Volumetric","Flow Categories",0.000000,0.000000,1.000000,"Volumetric",-1.000000
+"Base Thermal","Flow Categories",,,1.000000,"Thermal",-1.000000
+"C3","Flow Categories",-725.450001,0.000000,1.000000,"Volumetric",-1.000000
+"D1","Flow Categories",-21718.379982,0.000000,1.000000,"Volumetric",-1.000000
+"C4","Flow Categories",-576.979997,0.000000,1.000000,"Volumetric",-1.000000
+"C1","Flow Categories",-5053.630000,0.000000,1.000000,"Volumetric",-1.000000
+"C2","Flow Categories",-2633.849991,0.000000,1.000000,"Volumetric",-1.000000
+"I2","Flow Categories",-1293.589991,0.000000,1.000000,"Volumetric",-1.000000
+"DH","Flow Categories",0.000000,0.000000,1.000000,"Volumetric",0.000000
+"DM","Flow Categories",0.000000,0.000000,1.000000,"Volumetric",0.000000
+"DC","Flow Categories",-2461.834956,0.000000,1.000000,"Volumetric",-1.000000
+"IM","Flow Categories",0.000000,0.000000,1.000000,"Volumetric",0.000000
+"PL-AF","Flow Categories",-742.819990,0.000000,1.000000,"Volumetric",-1.000000
+"PL-PL","Flow Categories",0.000000,0.000000,1.000000,"Volumetric",0.000000
+"Base Diversified Volumetric","Flow Categories",,,1.000000,"Diversified Volumetric",-1.000000
+"Base Diversified Thermal","Flow Categories",,,1.000000,"Diversified Thermal",-1.000000
+"CC","Flow Categories",-208.059996,0.000000,1.000000,"Volumetric",-1.000000
+"CT","Flow Categories",-89.549998,0.000000,1.000000,"Volumetric",-1.000000
+"IC","Flow Categories",-23.079999,0.000000,1.000000,"Volumetric",-1.000000
+"PL-DC","Flow Categories",-220.530001,0.000000,1.000000,"Volumetric",-1.000000
+"PL-CC","Flow Categories",-42.549997,0.000000,1.000000,"Volumetric",-1.000000
+"DL","Flow Categories",0.000000,0.000000,1.000000,"Volumetric",0.000000
+"CM","Flow Categories",0.000000,0.000000,1.000000,"Volumetric",0.000000
+"CH","Flow Categories",0.000000,0.000000,1.000000,"Volumetric",0.000000
+"Fl2","Flow Categories",,,1.000000,"Volumetric",-1.000000
