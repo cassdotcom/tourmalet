@@ -1,8 +1,27 @@
+<#------------------------------------------------------------------------
+
+	.FILE NAME
+    ASSIGN_PROFILE_TO_DEMAND
+	
+    .PARAMETERS
+    
+    .DESCRIPTION
+    Analyses the flow categories for a model
+    Writes associated flow profile tag to node 
+    
+    .OUTPUT
+
+    .VERSION
+    0.2 - Modified header
+
+------------------------------------------------------------------------#>
+ 
+ 	
 process
 {
 	# Open flow categories:
 	# file paths
-	write-host "STARTING SCRIPT                                       " -foregroundcolor 'darkgreen' -backgroundcolor 'white'
+	write-host "STARTING SCRIPT                                         " -foregroundcolor 'darkgreen' -backgroundcolor 'white'
 	# write-host "                                                      " -foregroundcolor 'darkgreen' -backgroundcolor 'white'
 	# write-host "      N1                                              " -foregroundcolor 'darkgreen' -backgroundcolor 'white'
 	# $list_of_models_file = 'S:\TEST AREA\ac00418\average_system_pressures\settings\N1_model_list.txt'
@@ -219,8 +238,8 @@ begin
 					$node_data | Where-Object { $_.$NodeFlowByCategory -ne ""} | Foreach-object { $_.$NodeFlowProfileNameByCategory = "$($flow_category[$i]) PROFILE"}
 					}
 				catch {
-					write-warning "Unsuccessful attempt to modify flow category $($flow_category[$i]) "
-					"$($list_of_models_data[$k]). Unsuccessful attempt to modify flow category $($flow_category[$i]) " | Out-File $out_path -Append
+					write-warning "$($k) @Unsuccessful attempt to modify flow category $($flow_category[$i]) "
+					"$($list_of_models_data[$k]) @Unsuccessful attempt to modify flow category $($flow_category[$i]) " | Out-File $out_path -Append
 					}
 				finally {
 					}
@@ -232,7 +251,7 @@ begin
 				$flow_category_data | Export-CSV $flow_category_path -NoTypeInformation
 			}
 			catch {
-				write-warning "$($k). £ Unsuccessful attempt to write flow cats to $($flow_category_path) #######################" | Out-File $out_path -Append
+				write-warning "$($k). @Unsuccessful attempt to write flow cats to $($flow_category_path) #######################" | Out-File $out_path -Append
 			}
 			finally {
 			}
@@ -241,7 +260,7 @@ begin
 				$node_data | Export-CSV $all_nodes_path -NoTypeInformation
 			}
 			catch {
-				write-warning "$($k). £ Unsuccessful attempt to write all node data to $($all_nodes_path) #######################" | Out-File $out_path -Append
+				write-warning "$($k). @Unsuccessful attempt to write all node data to $($all_nodes_path) #######################" | Out-File $out_path -Append
 			}
 			finally {
 			}

@@ -155,7 +155,7 @@
         if ( $FileByteArray.Length -lt $DosHeaderSize )
         {
             # You're likely not dealing with a PE file in this case
-            Write-Verbose "$($FullPath) is not large enough to contain a full DOS header."
+            Write-Output "$($FullPath) is not large enough to contain a full DOS header."
 
             return
         }
@@ -175,7 +175,7 @@
         # if e_magic is not defined in IMAGE_DOS_SIGNATURE, then it is an invalid DOS header.
         if (-not [Enum]::IsDefined($DosSignatureType, $DosHeader.e_magic))
         {
-            Write-Verbose "$($FullPath) has in invalid DOS header."
+            Write-Output "$($FullPath) has in invalid DOS header."
         }
         else
         {
@@ -195,7 +195,7 @@
                 # There is no padding. Only retrieve the DOS header
                 $HeaderBytes = Get-Content $FullPath -Encoding Byte -TotalCount $DosHeaderSize
 
-                Write-Verbose "$($FullPath) has no padding after the DOS header."
+                Write-Output "$($FullPath) has no padding after the DOS header."
             }
 
             # This standard MS-DOS code stub that prints "This program cannot be run in DOS mode."

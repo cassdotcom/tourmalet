@@ -120,7 +120,7 @@
         # if e_magic is not defined in IMAGE_DOS_SIGNATURE, then it is an invalid DOS header.
         if (-not $IMAGE_DOS_SIGNATURE.ContainsValue($DosHeader.e_magic))
         {
-            Write-Verbose "$($FullPath) has in invalid DOS header."
+            Write-Output "$($FullPath) has in invalid DOS header."
         }
         else
         {
