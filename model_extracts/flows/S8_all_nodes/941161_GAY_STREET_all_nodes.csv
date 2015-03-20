@@ -1,0 +1,11 @@
+"NAME","TYPE","NodeDescription","NodeMinimumPressure","NodePressure","NodeSymbolName","NodeStatus","NodeXCoordinate","NodeYCoordinate","NodeFlowByCategory(Base Thermal)","NodeFlowByCategory(Base Volumetric)","NodeFlowByCategory(D1)","NodeThermalFlow","NodeResultFlow","NodeFlowProfileNameByCategory(Base Thermal)","NodeFlowProfileNameByCategory(Base Volumetric)","NodeFlowProfileNameByCategory(D1)"
+"94116108305014","Nodes","8305014",21.000000,56.675679,"DDS demands","Known Flow",508257.187500,121205.796875,,0.000000,-3.880000,-3.469565,-3.880000,,"","D1 PROFILE"
+"94116108305013","Nodes","8305013",21.000000,68.022301,"DDS demands","Known Flow",508315.000000,121419.750000,,0.000000,-2.759999,-2.468041,-2.759999,,"","D1 PROFILE"
+"94116108305012","Nodes","Marringdean Road DG, Constant, Site ID 8151",21.000000,69.999999,"Default Known Pressure Node","Known Pressure",508327.831794,121468.557626,,447.999998,,29.643322,33.149999,,"",
+"94116108305015","Nodes","Maximo ref 821704, Cannons Cottage",21.000000,32.847935,"Point Loads","Known Flow",508106.734893,120399.633764,,,-8.770000,-7.842291,-8.770000,,,"D1 PROFILE"
+"94116100000001","Nodes",,21.000000,62.791082,"DDS demands","Known Flow",508285.559488,121327.102593,,,-2.219999,-1.985163,-2.219999,,,"D1 PROFILE"
+"94116100000003","Nodes",,21.000000,34.830630,"DDS demands","Known Flow",508141.071265,120590.364138,,0.000000,-10.189999,-9.112080,-10.189999,,"","D1 PROFILE"
+"94116100005016","Nodes",,21.000000,44.812846,"DDS demands","Known Flow",508216.254527,120899.715784,,,-2.689999,-2.405446,-2.689999,,,"D1 PROFILE"
+"94116100000013","Nodes",,21.000000,32.774668,"DDS demands","Known Flow",508082.909961,120250.279618,,,-2.640000,-2.360735,-2.640000,,,"D1 PROFILE"
+"9411610-0005016","Nodes","-356710",21.000000,32.885863,"Default Known Flow Node","Known Flow",508108.875000,120402.500000,,0.000000,,0.000000,0.000000,,"",
+"94116100-000001","Nodes",,21.000000,67.584637,"Default Known Flow Node","Known Flow",508311.797902,121407.391958,,0.000000,,0.000000,0.000000,,"",

@@ -1,0 +1,17 @@
+"NAME","TYPE","FlowCategoryTotalVolumetricFlow","FlowCategoryTotalThermalFlow","FlowCategoryMultiplier","FlowCategoryType","CategoryActive"
+"Base Volumetric","Flow Categories",0.000000,0.000000,1.000000,"Volumetric",-1.000000
+"Base Thermal","Flow Categories",,,1.000000,"Thermal",-1.000000
+"C4","Flow Categories",-599.199996,0.000000,1.000000,"Volumetric",-1.000000
+"D1","Flow Categories",-17335.919982,0.000000,1.000000,"Volumetric",-1.000000
+"C1","Flow Categories",-2449.130019,0.000000,1.000000,"Volumetric",-1.000000
+"C2","Flow Categories",-1680.019990,0.000000,1.000000,"Volumetric",-1.000000
+"DC","Flow Categories",-985.320006,0.000000,1.000000,"Volumetric",-1.000000
+"C3","Flow Categories",-143.839997,0.000000,1.000000,"Volumetric",-1.000000
+"I2","Flow Categories",-919.770002,0.000000,1.000000,"Volumetric",-1.000000
+"CC","Flow Categories",-401.080001,0.000000,1.000000,"Volumetric",-1.000000
+"PL-DC","Flow Categories",-336.740000,0.000000,1.000000,"Volumetric",-1.000000
+"PL-AF","Flow Categories",-506.729995,0.000000,1.000000,"Volumetric",-1.000000
+"PL-PL","Flow Categories",0.000000,0.000000,1.000000,"Volumetric",0.000000
+"Base Diversified Volumetric","Flow Categories",,,1.000000,"Diversified Volumetric",-1.000000
+"Base Diversified Thermal","Flow Categories",,,1.000000,"Diversified Thermal",-1.000000
+"DH","Flow Categories",-19.349999,0.000000,1.000000,"Volumetric",-1.000000
