@@ -1,22 +1,89 @@
-<#------------------------------------------------------------------------
-
-	.FILE NAME
-    ASSIGN_PROFILE_TO_DEMAND
-	
-    .PARAMETERS
-    
-    .DESCRIPTION
-    Analyses the flow categories for a model
-    Writes associated flow profile tag to node 
-    
-    .OUTPUT
-
-    .VERSION
-    0.2 - Modified header
-
-------------------------------------------------------------------------#>
+###########################################################
+# FILE		: assign_profile_to_demand
+# AUTHOR  	: A. Cassidy 
+# DATE    	: 2015-03-18 
+# EDIT    	: 
+# COMMENT 	: 
+#           
+# VERSION : 1.1
+###########################################################
+# 
+# CHANGELOG
+# Version 1.2: 15-04-2014 - Changed 
+# - Added better Error Handling and Reporting.
+#   HomeDirectory and HomeDrive
+# Version 1.3: 08-07-2014
+# - Added functionality for ProxyAddresses
  
- 	
+# ERROR REPORTING ALL
+Set-StrictMode -Version latest
+
+
+#----------------------------------------------------------
+#region STATIC VARIABLES
+#----------------------------------------------------------
+
+$settings_file	= "G:\github_clone\tourmalet\settings\assign_profile_to_demand_settings.ini"
+$TIMES = Get-Date -format yyyy-mm-dd_hh-mm-ss
+$addn     = (Get-ADDomain).DistinguishedName
+$dnsroot  = (Get-ADDomain).DNSRoot
+$i        = 1
+#endregion
+
+
+
+
+
+#----------------------------------------------------------
+#region LOAD SETTINGS
+#----------------------------------------------------------
+Try
+{
+	# FileNotFound Exception will not cause PShell failure so explicitly state
+    $ErrorActionPreference = "Stop"
+    # Get settings content - there is some cleverness here to cope with ini format ( [ModelName] etc..)
+    Get-Content $settings_file | foreach-object -begin {$h=@{}} -process { $k = [regex]::split($_,'='); if(($k[0].CompareTo("") -ne 0) -and ($k[0].StartsWith("[") -ne $True)) { $h.Add($k[0], $k[1]) } }
+    # Does data exist?
+    if ($?){ } # continue
+    else { throw $error[0].exception}
+}
+Catch
+{
+	Write-Host "[ERROR]`t Settings file could not be loaded. Script will exit"
+	Write-Host "[ERROR]`t $($settings_file)"
+	Exit 1
+}
+#endregion
+
+
+
+
+#----------------------------------------------------------
+#region LOAD SCRIPT VARIABLES FROM SETTINGS
+#----------------------------------------------------------
+# Initiate the log for recording script
+$SCRIPT_LOG = $($h.Get_Item("script_log") + "_$TIMES.log")
+Start-Transcript -path $SCRIPT_LOG
+"[SCRIPT]`t Processing started (on " + $date + "): " | Out-File $SCRIPT_LOG -append
+"[SCRIPT]`t For logging purposes:" | Out-File $SCRIPT_LOG -append
+"[SCRIPT]`t 		[#] - indicates model name" | Out-File $SCRIPT_LOG -append
+"[SCRIPT]`t         [@] - indicates model filepath" | Out-File $SCRIPT_LOG -append
+"[SCRIPT]`t         [8] - indicates subsystem" | Out-File $SCRIPT_LOG -append
+$REGIONS = $h.Get_Item("regions")
+#endregion
+
+
+
+
+#----------------------------------------------------------
+#region START FUNCTIONS
+#----------------------------------------------------------
+Function Start-Commands
+{
+  Create-Users
+}
+#endregion
+
 process
 {
 	# Open flow categories:
